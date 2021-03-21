@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+}
+.carousel_withBtns {
+    display: flex;
+    align-items: center;
+}
+
+.items-view {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    width: 1152px;
+}
+
+.items-line {
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: 0.5s;
+}
+
+.item {
+    position: relative;
+    animation: 0.5s ease-in-out;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+/* 278 */
+
+.item img {
+    height: 399px;
+}
+
+.arrow {
+    padding: 30px;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+}
