@@ -1,2 +1,3 @@
 # offsetSlider
-slider where all movement are performes by offset. 
+view in gh-pages. 
+https://gena888.github.io/offsetSlider/.
